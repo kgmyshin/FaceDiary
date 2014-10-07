@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FaceDiary</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_picture">PictureActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_hisotry">HisotryActivity</string>
+    <string name="title_activity_mental_more">MentalMoreActivity</string>
+    <string name="title_activity_mental_condition_history">MentalConditionHistoryActivity</string>
+
+</resources>

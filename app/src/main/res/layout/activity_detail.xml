@@ -1,0 +1,576 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#FFF"
+    tools:context="com.facediary.DetailActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Detail"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Gender"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Man"
+                android:textSize="18sp"
+                android:gravity="right"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Year"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="26"
+                android:textSize="18sp"
+                android:gravity="right"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Handsome"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="80%"
+                android:textSize="18sp"
+                android:gravity="right"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginLeft="5dp"
+            android:text="I think these items become you more handsome."
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/glasses"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/glasses"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buddy Optical"
+                android:layout_toRightOf="@+id/glasses"
+                />
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="buy"
+                bootstrap:be_roundedCorners="true"
+                bootstrap:bb_icon_left="fa-shopping-cart"
+                bootstrap:bb_type="success"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/shirt"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/shirt"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="long‐sleeved shirt"
+                android:layout_toRightOf="@+id/shirt"
+                />
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="buy"
+                bootstrap:be_roundedCorners="true"
+                bootstrap:bb_icon_left="fa-shopping-cart"
+                bootstrap:bb_type="success"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/shoes"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/shoes"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rain shoes"
+                android:layout_toRightOf="@+id/shoes"
+                />
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="buy"
+                bootstrap:be_roundedCorners="true"
+                bootstrap:bb_icon_left="fa-shopping-cart"
+                bootstrap:bb_type="success"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cute"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="60%"
+                android:textSize="18sp"
+                android:gravity="right"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginLeft="5dp"
+            android:text="I think these items become you more cute."
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/earring"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/earring"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="earring"
+                android:layout_toRightOf="@+id/earring"
+                />
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="buy"
+                bootstrap:be_roundedCorners="true"
+                bootstrap:bb_icon_left="fa-shopping-cart"
+                bootstrap:bb_type="success"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/cheek"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/cheek"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cheek"
+                android:layout_toRightOf="@+id/cheek"
+                />
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="buy"
+                bootstrap:be_roundedCorners="true"
+                bootstrap:bb_icon_left="fa-shopping-cart"
+                bootstrap:bb_type="success"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/hat"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/hat"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hat"
+                android:layout_toRightOf="@+id/hat"
+                />
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="buy"
+                bootstrap:be_roundedCorners="true"
+                bootstrap:bb_icon_left="fa-shopping-cart"
+                bootstrap:bb_type="success"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Physical Condition"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="60%"
+                android:textSize="18sp"
+                android:gravity="right"
+                />
+        </LinearLayout>
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="History"
+            android:id="@+id/history_btn"
+            bootstrap:be_roundedCorners="true"
+            bootstrap:bb_icon_left="fa-align-right"
+            bootstrap:bb_type="success"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="right"
+            android:layout_gravity="right" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginLeft="5dp"
+            android:text="you looks like not good."
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/supplement"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/vitamin"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vitamin"
+                android:layout_toRightOf="@+id/supplement"
+                />
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="buy"
+                bootstrap:be_roundedCorners="true"
+                bootstrap:bb_icon_left="fa-shopping-cart"
+                bootstrap:bb_type="success"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/banana"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/banana"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="banana"
+                android:layout_toRightOf="@+id/banana"
+                />
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="buy"
+                bootstrap:be_roundedCorners="true"
+                bootstrap:bb_icon_left="fa-shopping-cart"
+                bootstrap:bb_type="success"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Mental Condition"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="50%"
+                android:textSize="18sp"
+                android:gravity="right"
+                />
+        </LinearLayout>
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="more..."
+            android:id="@+id/mental_more_btn"
+            bootstrap:be_roundedCorners="true"
+            bootstrap:bb_icon_left="fa-info"
+            bootstrap:bb_type="success"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="right"
+            android:layout_gravity="right" />
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="history"
+            android:id="@+id/mental_more_history_btn"
+            bootstrap:be_roundedCorners="true"
+            bootstrap:bb_icon_left="fa-align-right"
+            bootstrap:bb_type="success"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="right"
+            android:layout_gravity="right" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginLeft="5dp"
+            android:text="you looks so sad. You should see funny movie."
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/movie"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/movie"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes Man"
+                android:layout_toRightOf="@+id/movie"
+                />
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="show"
+                bootstrap:be_roundedCorners="true"
+                bootstrap:bb_icon_left="fa-shopping-cart"
+                bootstrap:bb_type="success"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
